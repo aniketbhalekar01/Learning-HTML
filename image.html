@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image Tag</title>
+</head>
+<body>
+    <h1>Dhoni Image</h1>
+    <img src = "Images/dhoni.avif" alt="Ms Dhoni" height="200px" />
+    <h1>Virat Image</h1>
+    <img src="Images/virat.webp" alt="Virat Kohli" height="200px">
+    <hr>
+    <h1>Picture Tag</h1>
+    <picture>
+        <source media="(max-width : 600px)" srcset="Images/virat.webp">
+        <source media="(max-width : 1000px)" srcset="Images/dhoni.avif">
+        <img src="/Images/abhishek.jpg" alt="">
+    </picture>
+    <picture>
+        <source srcset="Images/bumrah.webp" media="(max-width : 600px)">
+        <img src="./Images/arshdeep.webp" alt="">
+    </picture>
+    <hr>
+    <h1>Figure Tag</h1>
+    <figure>
+        <img src="Images/arshdeep.webp" alt="arshdeep">
+        <figcaption>Arshdeep Singh (Indian Cricketer)</figcaption>
+    </figure>
+</body>
+</html>
