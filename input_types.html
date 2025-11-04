@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Input Types</title>
+    <style>
+      h2 {
+        color: orangered;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Form Details</h1>
+    <form action="">
+      <h2>Text Type</h2>
+      <label>First Name :</label>
+      <input type="text" placeholder="Enter First Name" />
+      <br /><br />
+      <label>Middle Name :</label>
+      <input type="text" placeholder="Enter Last Name" />
+      <br /><br />
+      <label>Last Name :</label>
+      <input type="text" placeholder="Enter Last Name" />
+      <br /><br />
+      <hr>
+      <h2>Number Type</h2>
+      <label>Mobile Number :</label>
+      <input type="number" placeholder="Enter Mobile Number" />
+      <br /><br />
+      <hr>
+      <h2>Password Type</h2>
+      <label>Password :</label>
+      <input type="password" placeholder="Enter Password" />
+      <br /><br />
+      <hr>
+      <h2>Checkbox Type</h2>
+      <label>Choose Cities :</label>
+      <br />
+      <input type="checkbox" /> Mumbai <input type="checkbox" /> Pune
+      <input type="checkbox" /> Nagpur <input type="checkbox" /> Kolhapur
+      <input type="checkbox" /> Satara <br /><br />
+      <hr>
+      <h2>Radio Type</h2>
+      <label>Select Gender :</label>
+      <br />
+      <input type="radio" name="gender" /> Male
+      <input type="radio" name="gender" /> Female
+      <input type="radio" name="gender" /> Others
+      <br />
+      <hr />
+      <h2>Date,Time,Month,Week,Time Type</h2>
+      <label>Date,Month,Week,Time</label>
+      <br />
+      <input type="date" />
+      <input type="month" />
+      <input type="week" />
+      <input type="datetime-local" />
+      <hr />
+      <h2>File Type</h2>
+      <label>Upload Document :</label>
+      <input type="file" />
+      <br /><br />
+      <label>Upload Multiple Documents :</label>
+      <input type="file" multiple />
+      <hr />
+      <h2>Select Type</h2>
+      <label>Select Your Fav Sweet Dish :</label>
+      <select>
+        <option>Choose Dish...</option>
+        <option>Kaju Katli</option>
+        <option>Gulab Jamun</option>
+        <option>Rasmalai</option>
+        <option>Basundi</option>
+        <option>Rasgulla</option>
+      </select>
+      <hr>
+      <h2>Range</h2>
+      <label>Select Range :</label>
+      <input type="range">
+      <hr>
+      <h2>Color Type</h2>
+      <input type="color">
+      <hr>
+      <h2>Textarea Input</h2>
+      <textarea placeholder="Enter Feedback" rows="5" cols="70"></textarea>
+      <hr>
+      <h2>Submit input / Button</h2>
+      <input type="submit" value="Submit">
+      <input type="button" value="Click Me">
+      <input type="reset" >
+      <br><br>
+      <hr>
+      <h2>Fieldset and Legend Tag</h2>
+      <fieldset>
+        <legend>Contact Form</legend>
+        <form>
+            <label>Name :</label>
+            <input type="text" placeholder="Enter Name">
+            <br><br>
+            <label>Email :</label>
+            <input type="email" placeholder="Enter Email">
+            <br><br>
+            <label>Phone No :</label>
+            <input type="number" placeholder="Enter Phone No">
+            <br><br>
+            <label>Pincode :</label>
+            <input type="number" placeholder="Enter Pincode">
+            <br><br>
+            <label>Address :</label>
+            <textarea rows="4" cols="30" placeholder="Enter Address..."></textarea>
+        </form>
+      </fieldset>
+    </form>
+  </body>
+</html>
